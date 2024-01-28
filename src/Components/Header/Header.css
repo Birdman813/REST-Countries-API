@@ -1,0 +1,23 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 16px;
+    height: 80px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+.mode-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+h3 {
+    cursor: pointer;
+}
+
+@media (min-width: 800px) {
+    .header-container {
+        padding: 23px 81px;
+    }
+}
